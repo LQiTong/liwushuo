@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Language" content="zh_CN">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="keywords" content="礼物说,全球好货,会说话的礼物,会说话,条形码,扫描条形码,扫码留声,扫条码存声音,让礼物开口说话,二维码扫描,二维码制作,移动二维码,创意二维码">
+    <meta name="description" content="礼物说，一个帮你选【全球好货】的 App，带你逛遍全世界的好东西，送出感动ta的礼物。安卓,iOS版本均可在应用商店下载。">
+    <meta name="copyright" content="© 2014 - 2016 Liwushuo.com 北京礼品说科技有限公司"/>
+    <meta property="og:url" content="http://www.liwushuo.com">
+    <meta property="og:site_name" content="礼物说－礼物和全球好货指南">
+    <meta property="og:title" content="礼物说－礼物和全球好货指南">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>礼物说--说心声</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/musicStyle.css"/>
+</head>
+<body>
+<div class="main-wrapper" id="top">
+    <!--登陆部分-->
+    <div class="modal login-modals" style="display: none;">
+        <div class="modal-header">登录礼物说
+            <div class="modal-close"></div>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li><i class="login-icon-weibo"></i>微博账号登录</li>
+                <li><i class="login-icon-qq"></i>QQ账号登录</li>
+            </ul>
+        </div>
+    </div>
+    <!--登录部分大背景-->
+    <div class="modal-bg" style="display: none"></div>
+    <!--头部-->
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="header-banner w">
+                <div class="header-left">
+                    <h1><a href="#">礼物说</a></h1>
+
+                    <div class="searchBar">
+                        <input type="text" id="searchBar-input" placeholder="搜索礼物、攻略"/>
+                        <label for="searchBar-input">搜索</label>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="btn-login">登录 / 注册</div>
+                </div>
+
+            </div>
+            <div class="nav-wrapper">
+                <div class="nav w" style="position: relative;">
+                    <ul class="nav-block w">
+                        <li class="active"><a href="index.html" target="_self">首页</a></li>
+                        <li><a href="other/sentObj.html" target="_blank">赠送对象</a><b></b></li>
+                        <li><a href="other/sentArea.html" target="_blank">赠送场合</a><b></b></li>
+                        <li><a href="other/Ta.html" target="_blank">Ta的个性</a><b></b></li>
+                        <li><a href="other/appDownload.html" target="_blank"><i></i>下载手机版</a></li>
+                    </ul>
+                    <div class="searchBar" style="position: relative;display: none">
+                        <input type="text" placeholder="搜索礼物、攻略"/><img src="images/icon_search_5c49228.png" alt=""/>
+                    </div>
+                    <ul class="nav-none w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="other/sentObj.html" target="_blank">赠送对象</a><b></b></li>
+                        <li class="dashed"><a href="#">自己</a></li>
+                        <li class="dashed"><a href="#">男票</a></li>
+                        <li class="dashed"><a href="#">女朋友</a></li>
+                        <li class="dashed"><a href="#">闺蜜们</a></li>
+                        <li class="dashed"><a href="#">基友</a></li>
+                        <li class="dashed"><a href="#">爸爸妈妈</a></li>
+                        <li class="dashed"><a href="#">小朋友</a></li>
+                        <li><a href="#">同事</a></li>
+                    </ul>
+                    <ul class="nav-none n1 w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="other/sentArea.html" target="_blank">赠送场合</a><b></b></li>
+                        <li class="dashed"><a href="#">新年</a></li>
+                        <li class="dashed"><a href="#">生日</a></li>
+                        <li class="dashed"><a href="#">纪念日</a></li>
+                        <li class="dashed"><a href="#">结婚</a></li>
+                        <li class="dashed"><a href="#">感谢</a></li>
+                        <li class="dashed"><a href="#">情人节</a></li>
+                        <li class="dashed"><a href="#">乔迁</a></li>
+                        <li><a href="#">圣诞节</a></li>
+                    </ul>
+                    <ul class="nav-none n2 w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="other/Ta.html" target="_blank">Ta的个性</a><b></b></li>
+                        <li class="dashed"><a href="#">美物</a></li>
+                        <li class="dashed"><a href="#">手工</a></li>
+                        <li class="dashed"><a href="#">吃货</a></li>
+                        <li class="dashed"><a href="#">萌萌哒</a></li>
+                        <li class="dashed"><a href="#">动漫迷</a></li>
+                        <li class="dashed"><a href="#">小清醒</a></li>
+                        <li><a href="#">科技范</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--广告部分开始-->
+    <div class="banner-wrapper">
+        <div class="wrapper w" style="margin-top: -70px;">
+            <h1 class="logo"><a href="/">礼物说 - 礼物和全球好货指南</a></h1>
+            <!-- 下载部分-->
+            <div class="download">
+                <a class="btn-iphone" href="#">iPhone 版下载</a>
+
+                <!-- Android 版下载-->
+                <div class="android-download">
+                    <div class="btn-android">Android 版下载</div>
+
+                    <!-- 隐藏部分-->
+                    <div class="android-download-list">
+                        <a class="adl-item btn-91" href="#" name="礼物说" title="通过91助手下载"><i></i>
+
+                            <p>百度极速安装</p></a>
+                        <a class="adl-item btn-360" href="#"><i></i>
+
+                            <p> 360 一键安装</p></a>
+                        <a class="adl-item btn-wandoujia" href="#"><i></i>
+
+                            <p>豌豆荚安装</p></a>
+                        <a class="adl-item btn-pc" href="#"><i></i>
+
+                            <p>本地下载安装</p></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 微博部分-->
+            <div class="social">
+                <p class="weibo">
+                    <i class="icon-weibo"></i><span>新浪微博：<a target="_blank" href="#">@礼物说</a></span>
+                </p>
+            </div>
+
+            <!-- 广告右边部分-->
+            <div id="slide-box">
+                <div class="slideshow">
+                    <ul id="imgs">
+                        <li><a href="#"><img src="images/01_1871a63.png"></a></li>
+                        <li><a href="#"><img src="images/02_d63bbc8.png"></a></li>
+                        <li><a href="#"><img src="images/03_70f52ae.png"></a></li>
+                        <li><a href="#"><img src="images/04_d48b04d.png"></a></li>
+                        <li><a href="#"><img src="images/05_23c3230.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gallery"></div>
+        </div>
+        <!--广告部分结束-->
+    </div>
+    <!--中心内容块-->
+    <div id="container" class="wrapper container">
+        <!--版心内容-->
+        <div class="innermian w" id="innermian">
+            <h3>攻略精选</h3>
+            <ul class="reco-list clearfix" id="reco-list">
+                <!--动态创建元素-->
+            </ul>
+
+            <!--点击加载更多-->
+            <div class="load-next w" id="next">
+                <a href="javascript:void (0);">点击加载更多</a>
+            </div>
+            <!--热门搜索-->
+            <div class="hot-search clearfix">
+                <h4 class="hot-title">热门搜索</h4>
+                <ul class="one">
+                </ul>
+                <ul class="one fl">
+                    <li><a href="#">礼物说全球海淘精选</a></li>
+                    <li><a href="#">礼物说全球免税店</a></li>
+                    <li><a href="#">礼物说韩国免税店</a></li>
+                </ul>
+                <ul class="two fl">
+                    <li><a href="#">礼物说日本免税店</a></li>
+                    <li><a href="#">礼物说日韩美妆</a></li>
+                    <li><a href="#">礼物说韩国女装</a></li>
+                </ul>
+                <ul class="three fl">
+                    <li><a href="#">礼物说全球零食</a></li>
+                    <li><a href="#">礼物说吃货必备</a></li>
+                    <li><a href="#">礼物说值得剁手精选</a></li>
+                </ul>
+                <ul class="four fr">
+                    <li><a href="#">礼物说情人节礼物</a></li>
+                    <li><a href="#">礼物说圣诞节礼物</a></li>
+                    <li><a href="#">礼物说礼包</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--页脚-->
+        <div class="footer">
+            <p class="copyright">
+                &copy;2014 - 2016 Liwushuo.com 北京礼品说科技有限公司 电信与信息服务业务经营许可证150653号 京ICP备15031023号-1<br/>
+                <a href="#">首页</a> |
+                <a href="#">商务合作</a> |
+                <a href="#">关于我们</a> |
+                <a href="#">WindowPhone下载版</a> |
+                <span>  电话：010-57510218</span>
+            </p>
+        </div>
+    </div>
+
+    <!--回到顶部-->
+    <div class="back-top"><a href="#top"></a></div>
+
+
+    <!--音乐播放器-->
+    <div class="music-icon"></div>
+    <div class="music" style="display: none">
+        <canvas id='canvas' width="800" height="350"></canvas>
+        <br>
+        <br>
+        <div class="music-auto">
+            <audio src="music/6039.mp3" id="audio" autoplay="autoplay" controls></audio>  <!-- loop="loop"  循环播放-->
+        </div>
+    </div>
+</div>
+<script>
+    window.onload = function(){
+        console.log("escape('礼物说，世界上最全的礼物咨询网站')");
+    }
+</script>
+</body>
+</html>
+<script src="js/jquery-1.12.2.js"></script>
+<script src="js/header.js"></script>

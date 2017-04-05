@@ -1,0 +1,38 @@
+
+.music-icon {
+    width: 40px;
+    height: 40px;
+    background: url("../images/music229.png") no-repeat -16px 0;
+    background-size: 40px 40px;
+    position: fixed;
+    top: 45px;
+    right: 80px;
+    cursor: pointer;
+}
+
+.music {
+    background-color: rgba(0,0,0,.5);
+    width: 800px;
+    height: 450px;
+    position: fixed;
+    top: 85px;
+    right: 96px;
+    border-radius: 20px;
+    z-index: 10000000;
+}
+.music-auto{
+    margin-left: 300px;
+}
+.bar-wrapper {
+    height: 300px;
+    position: relative;
+}
+.bar {
+    position: relative;
+    bottom: 0;
+    width: 5px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+}

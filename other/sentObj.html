@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Language" content="zh_CN">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="keywords" content="礼物说,全球好货,会说话的礼物,会说话,条形码,扫描条形码,扫码留声,扫条码存声音,让礼物开口说话,二维码扫描,二维码制作,移动二维码,创意二维码">
+    <meta name="description" content="礼物说，一个帮你选【全球好货】的 App，带你逛遍全世界的好东西，送出感动ta的礼物。安卓,iOS版本均可在应用商店下载。">
+    <meta name="copyright" content="© 2014 - 2016 Liwushuo.com 北京礼品说科技有限公司"/>
+    <meta property="og:url" content="http://www.liwushuo.com">
+    <meta property="og:site_name" content="礼物说－礼物和全球好货指南">
+    <meta property="og:title" content="礼物说－礼物和全球好货指南">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>礼物说--赠送对象</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/sentObj.css"/>
+</head>
+<body>
+<div class="main-wrapper" id="top">
+    <!--登陆部分-->
+    <div class="modal login-modals" style="display: none;">
+        <div class="modal-header">登录礼物说
+            <div class="modal-close"></div>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li><i class="login-icon-weibo"></i>微博账号登录</li>
+                <li><i class="login-icon-qq"></i>QQ账号登录</li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal-bg" style="display: none"></div>
+    <!--头部-->
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="header-banner w">
+                <div class="header-left">
+                    <h1><a href="#">礼物说</a></h1>
+
+                    <div class="searchBar">
+                        <input type="text" id="searchBar-input" placeholder="搜索礼物、攻略"/>
+                        <label for="searchBar-input">搜索</label>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="btn-login">登录 / 注册</div>
+                </div>
+
+            </div>
+            <div class="nav-wrapper">
+                <div class="nav w" style="position: relative;">
+                    <ul class="nav-block w">
+                        <li class="active"><a href="../index.html" target="_blank">首页</a></li>
+                        <li><a href="sentObj.html" target="_self">赠送对象</a><b></b></li>
+                        <li><a href="sentArea.html" target="_blank">赠送场合</a><b></b></li>
+                        <li><a href="Ta.html" target="_blank">Ta的个性</a><b></b></li>
+                        <li><a href="appDownload.html" target="_blank"><i></i>下载手机版</a></li>
+                    </ul>
+                    <div class="searchBar" style="position: relative;display: none">
+                        <input type="text" placeholder="搜索礼物、攻略"/><img src="../images/icon_search_5c49228.png" alt=""/>
+                    </div>
+                    <ul class="nav-none w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="sentObj.html" target="_self">赠送对象</a><b></b></li>
+                        <li class="dashed"><a href="#">自己</a></li>
+                        <li class="dashed"><a href="#">男票</a></li>
+                        <li class="dashed"><a href="#">女朋友</a></li>
+                        <li class="dashed"><a href="#">闺蜜们</a></li>
+                        <li class="dashed"><a href="#">基友</a></li>
+                        <li class="dashed"><a href="#">爸爸妈妈</a></li>
+                        <li class="dashed"><a href="#">小朋友</a></li>
+                        <li><a href="#">同事</a></li>
+                    </ul>
+                    <ul class="nav-none n1 w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="sentArea.html" target="_blank">赠送场合</a><b></b></li>
+                        <li class="dashed"><a href="#">新年</a></li>
+                        <li class="dashed"><a href="#">生日</a></li>
+                        <li class="dashed"><a href="#">纪念日</a></li>
+                        <li class="dashed"><a href="#">结婚</a></li>
+                        <li class="dashed"><a href="#">感谢</a></li>
+                        <li class="dashed"><a href="#">情人节</a></li>
+                        <li class="dashed"><a href="#">乔迁</a></li>
+                        <li><a href="#">圣诞节</a></li>
+                    </ul>
+                    <ul class="nav-none n2 w" style="display: none;position: absolute;">
+                        <li class="li-block"><a href="Ta.html" target="_blank">Ta的个性</a><b></b></li>
+                        <li class="dashed"><a href="#">美物</a></li>
+                        <li class="dashed"><a href="#">手工</a></li>
+                        <li class="dashed"><a href="#">吃货</a></li>
+                        <li class="dashed"><a href="#">萌萌哒</a></li>
+                        <li class="dashed"><a href="#">动漫迷</a></li>
+                        <li class="dashed"><a href="#">小清醒</a></li>
+                        <li><a href="#">科技范</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--选择部分-->
+    <div class="big">
+        <div class="filter-top w">
+            <div id="filter">
+                <ul class="filter-container">
+                    <li class="filter-class">
+                        <ul class="fc-target">赠送对象：
+                            <li class="filter-item tar-all">
+                                <a data-type="target_id" data-channel="-1" href="javascript:void(0);">全部</a>
+                            </li>
+                            <li class="filter-item tar-34 active">
+                                <a data-type="target_id" data-channel="34" href="javascript:void(0);">自己</a>
+                            </li>
+                            <li class="filter-item tar-9">
+                                <a data-type="target_id" data-channel="9"href="javascript:void(0);">男票</a>
+                            </li>
+                            <li class="filter-item tar-10">
+                                <a data-type="target_id" data-channel="10" href="javascript:void(0);">女票</a>
+                            </li>
+                            <li class="filter-item tar-5">
+                                <a data-type="target_id" data-channel="5" href="javascript:void(0);">闺蜜</a>
+                            </li>
+                            <li class="filter-item tar-26">
+                                <a data-type="target_id" data-channel="26" href="javascript:void(0);">基友</a>
+                            </li>
+                            <li class="filter-item tar-6">
+                                <a data-type="target_id" data-channel="6" href="javascript:void(0);">爸爸妈妈</a>
+                            </li>
+                            <li class="filter-item tar-24">
+                                <a data-type="target_id" data-channel="24" href="javascript:void(0);">小朋友</a>
+                            </li>
+                            <li class="filter-item tar-17">
+                                <a data-type="target_id" data-channel="17" href="javascript:void(0);">同事</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="filter-class">
+                        <ul class="fc-scene">赠送场合：
+                            <li class="filter-item sce-all active">
+                                <a data-type="scene_id" data-channel="-1" href="javascript:void(0);">全部</a>
+                            </li>
+                            <li class="filter-item sce-39">
+                                <a data-type="scene_id" data-channel="39" href="javascript:void(0);">新年</a>
+                            </li>
+                            <li class="filter-item sce-30">
+                                <a data-type="scene_id" data-channel="30" href="javascript:void(0);">生日</a>
+                            </li>
+                            <li class="filter-item sce-32">
+                                <a data-type="scene_id" data-channel="32" href="javascript:void(0);">情人节</a>
+                            </li>
+                            <li class="filter-item sce-31">
+                                <a data-type="scene_id" data-channel="31" href="javascript:void(0);">纪念日</a>
+                            </li>
+                            <li class="filter-item sce-33">
+                                <a data-type="scene_id" data-channel="33" href="javascript:void(0);">结婚</a>
+                            </li>
+                            <li class="filter-item sce-36">
+                                <a data-type="scene_id" data-channel="36" href="javascript:void(0);">感谢</a>
+                            </li>
+                            <li class="filter-item sce-35">
+                                <a data-type="scene_id" data-channel="35" href="javascript:void(0);">乔迁</a>
+                            </li>
+                            <li class="filter-item sce-40">
+                                <a data-type="scene_id" data-channel="40" href="javascript:void(0);">圣诞节</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="filter-class">
+                        <ul class="fc-personality">Ta的个性：
+                            <li class="filter-item per-all active">
+                                <a data-type="personality_id" data-channel="-1"href="javascript:void(0);">全部</a>
+                            </li>
+                            <li class="filter-item per-2">
+                                <a data-type="personality_id" data-channel="2" href="javascript:void(0);">美物</a>
+                            </li>
+                            <li class="filter-item per-3">
+                                <a data-type="personality_id" data-channel="3" href="javascript:void(0);">手工</a>
+                            </li>
+                            <li class="filter-item per-27">
+                                <a data-type="personality_id" data-channel="27" href="javascript:void(0);">吃货</a>
+                            </li>
+                            <li class="filter-item per-11">
+                                <a data-type="personality_id" data-channel="11" href="javascript:void(0);">萌萌哒</a>
+                            </li>
+                            <li class="filter-item per-29">
+                                <a data-type="personality_id" data-channel="29" href="javascript:void(0);">动漫迷</a>
+                            </li>
+                            <li class="filter-item per-14">
+                                <a data-type="personality_id" data-channel="14" href="javascript:void(0);">小清新</a>
+                            </li>
+                            <li class="filter-item per-28">
+                                <a data-type="personality_id" data-channel="28" href="javascript:void(0);">科技范</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--中心内容块-->
+    <div id="container" class="wrapper container">
+        <!--版心内容-->
+        <div class="innermian w" id="innermian">
+            <ul class="reco-list clearfix" id="reco-list">
+                <!--动态创建元素-->
+            </ul>
+
+            <!--点击加载更多-->
+            <div class="load-next w" id="next">
+                <a href="javascript:void (0);">点击加载更多</a>
+            </div>
+
+        </div>
+        <!--页脚-->
+        <div class="footer">
+            <p class="copyright">
+                &copy;2014 - 2016 Liwushuo.com 北京礼品说科技有限公司 电信与信息服务业务经营许可证150653号 京ICP备15031023号-1<br/>
+                <a href="#">首页</a> |
+                <a href="#">商务合作</a> |
+                <a href="#">关于我们</a> |
+                <a href="#">WindowPhone下载版</a> |
+                <span>  电话：010-57510218</span>
+            </p>
+        </div>
+    </div>
+
+    <!--回到顶部-->
+    <div class="back-top"><a href="#top"></a></div>
+</div>
+</body>
+</html>
+<script src="../js/jquery-1.12.2.js"></script>
+<script src="../js/header.js"></script>
